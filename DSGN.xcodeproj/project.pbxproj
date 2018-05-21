@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0438144B20B2BD0100146BF2 /* DagNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144A20B2BD0100146BF2 /* DagNView.swift */; };
+		0438144D20B2BD1A00146BF2 /* DagKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144C20B2BD1A00146BF2 /* DagKView.swift */; };
 		04689DFA20B2804D00D580E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689DF920B2804D00D580E0 /* AppDelegate.swift */; };
-		04689DFC20B2804D00D580E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689DFB20B2804D00D580E0 /* ViewController.swift */; };
 		04689DFF20B2804D00D580E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04689DFD20B2804D00D580E0 /* Main.storyboard */; };
 		04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04689E0020B2804D00D580E0 /* DSGN.xcdatamodeld */; };
 		04689E0420B2804D00D580E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04689E0320B2804D00D580E0 /* Assets.xcassets */; };
@@ -40,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0438144A20B2BD0100146BF2 /* DagNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagNView.swift; sourceTree = "<group>"; };
+		0438144C20B2BD1A00146BF2 /* DagKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagKView.swift; sourceTree = "<group>"; };
 		04689DF620B2804D00D580E0 /* DSGN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSGN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04689DF920B2804D00D580E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04689DFB20B2804D00D580E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04689DFE20B2804D00D580E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04689E0120B2804D00D580E0 /* DSGN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DSGN.xcdatamodel; sourceTree = "<group>"; };
 		04689E0320B2804D00D580E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +117,6 @@
 				04689E2E20B280B400D580E0 /* Ultis */,
 				04689E2B20B2808C00D580E0 /* MVC */,
 				04689DF920B2804D00D580E0 /* AppDelegate.swift */,
-				04689DFB20B2804D00D580E0 /* ViewController.swift */,
 				04689DFD20B2804D00D580E0 /* Main.storyboard */,
 				04689E0320B2804D00D580E0 /* Assets.xcassets */,
 				04689E0520B2804E00D580E0 /* LaunchScreen.storyboard */,
@@ -162,6 +163,8 @@
 		04689E2C20B2809A00D580E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0438144A20B2BD0100146BF2 /* DagNView.swift */,
+				0438144C20B2BD1A00146BF2 /* DagKView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -346,13 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04689DFC20B2804D00D580E0 /* ViewController.swift in Sources */,
 				04689E3E20B2AD3800D580E0 /* UILable+Extention.swift in Sources */,
 				04689E3D20B2AD3800D580E0 /* UIButton+Extention.swift in Sources */,
 				04689E3420B2ABB600D580E0 /* Config.swift in Sources */,
+				0438144D20B2BD1A00146BF2 /* DagKView.swift in Sources */,
 				04689E3C20B2AD3800D580E0 /* Reachability.swift in Sources */,
 				04689DFA20B2804D00D580E0 /* AppDelegate.swift in Sources */,
 				04689E4020B2AD3800D580E0 /* UIView+Extention.swift in Sources */,
+				0438144B20B2BD0100146BF2 /* DagNView.swift in Sources */,
 				04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
