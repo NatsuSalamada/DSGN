@@ -15,6 +15,11 @@
 		04689E0720B2804E00D580E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04689E0520B2804E00D580E0 /* LaunchScreen.storyboard */; };
 		04689E1220B2804E00D580E0 /* DSGNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E1120B2804E00D580E0 /* DSGNTests.swift */; };
 		04689E1D20B2804E00D580E0 /* DSGNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E1C20B2804E00D580E0 /* DSGNUITests.swift */; };
+		04689E3420B2ABB600D580E0 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3320B2ABB600D580E0 /* Config.swift */; };
+		04689E3C20B2AD3800D580E0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3620B2AD3800D580E0 /* Reachability.swift */; };
+		04689E3D20B2AD3800D580E0 /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3720B2AD3800D580E0 /* UIButton+Extention.swift */; };
+		04689E3E20B2AD3800D580E0 /* UILable+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3820B2AD3800D580E0 /* UILable+Extention.swift */; };
+		04689E4020B2AD3800D580E0 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3A20B2AD3800D580E0 /* UIView+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		04689E1820B2804E00D580E0 /* DSGNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSGNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04689E1C20B2804E00D580E0 /* DSGNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSGNUITests.swift; sourceTree = "<group>"; };
 		04689E1E20B2804E00D580E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04689E3320B2ABB600D580E0 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		04689E3620B2AD3800D580E0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		04689E3720B2AD3800D580E0 /* UIButton+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
+		04689E3820B2AD3800D580E0 /* UILable+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILable+Extention.swift"; sourceTree = "<group>"; };
+		04689E3A20B2AD3800D580E0 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +176,10 @@
 		04689E2E20B280B400D580E0 /* Ultis */ = {
 			isa = PBXGroup;
 			children = (
+				04689E3620B2AD3800D580E0 /* Reachability.swift */,
+				04689E3720B2AD3800D580E0 /* UIButton+Extention.swift */,
+				04689E3820B2AD3800D580E0 /* UILable+Extention.swift */,
+				04689E3A20B2AD3800D580E0 /* UIView+Extention.swift */,
 			);
 			path = Ultis;
 			sourceTree = "<group>";
@@ -196,6 +210,7 @@
 		04689E3220B2815000D580E0 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				04689E3320B2ABB600D580E0 /* Config.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -332,7 +347,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04689DFC20B2804D00D580E0 /* ViewController.swift in Sources */,
+				04689E3E20B2AD3800D580E0 /* UILable+Extention.swift in Sources */,
+				04689E3D20B2AD3800D580E0 /* UIButton+Extention.swift in Sources */,
+				04689E3420B2ABB600D580E0 /* Config.swift in Sources */,
+				04689E3C20B2AD3800D580E0 /* Reachability.swift in Sources */,
 				04689DFA20B2804D00D580E0 /* AppDelegate.swift in Sources */,
+				04689E4020B2AD3800D580E0 /* UIView+Extention.swift in Sources */,
 				04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
