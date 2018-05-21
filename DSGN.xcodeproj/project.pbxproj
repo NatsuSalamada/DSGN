@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0438144B20B2BD0100146BF2 /* DagNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144A20B2BD0100146BF2 /* DagNView.swift */; };
 		0438144D20B2BD1A00146BF2 /* DagKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144C20B2BD1A00146BF2 /* DagKView.swift */; };
+		0438145020B2C75800146BF2 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 0438144F20B2C75800146BF2 /* Montserrat */; };
 		04689DFA20B2804D00D580E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689DF920B2804D00D580E0 /* AppDelegate.swift */; };
 		04689DFF20B2804D00D580E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04689DFD20B2804D00D580E0 /* Main.storyboard */; };
 		04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04689E0020B2804D00D580E0 /* DSGN.xcdatamodeld */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		0438144A20B2BD0100146BF2 /* DagNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagNView.swift; sourceTree = "<group>"; };
 		0438144C20B2BD1A00146BF2 /* DagKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagKView.swift; sourceTree = "<group>"; };
+		0438144F20B2C75800146BF2 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 		04689DF620B2804D00D580E0 /* DSGN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSGN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04689DF920B2804D00D580E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04689DFE20B2804D00D580E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0438144E20B2C72F00146BF2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0438144F20B2C75800146BF2 /* Montserrat */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		04689DED20B2804D00D580E0 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +208,7 @@
 		04689E3020B2813600D580E0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0438144E20B2C72F00146BF2 /* Font */,
 				04689E3120B2814300D580E0 /* Sounds */,
 			);
 			path = Sources;
@@ -323,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04689E0720B2804E00D580E0 /* LaunchScreen.storyboard in Resources */,
+				0438145020B2C75800146BF2 /* Montserrat in Resources */,
 				04689E0420B2804D00D580E0 /* Assets.xcassets in Resources */,
 				04689DFF20B2804D00D580E0 /* Main.storyboard in Resources */,
 			);
