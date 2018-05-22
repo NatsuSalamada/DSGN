@@ -9,7 +9,27 @@
 import UIKit
 
 class DagNView: UIViewController {
-
+    
+    
+    // Action Of Screen
+    @IBAction func abtnQuenMatKhau(_ sender: Any) {
+    }
+    @IBAction func abtnDangNhap(_ sender: Any) {
+    }
+    @IBAction func abtnDangKy(_ sender: Any) {
+    }
+    @IBAction func abtnShareFaceBook(_ sender: Any) {
+    }
+    @IBAction func abtnShareTwitter(_ sender: Any) {
+    }
+    @IBAction func abtnShareGooglePlus(_ sender: Any) {
+    }
+    
+    
+    
+    // Action Of Screen
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

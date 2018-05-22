@@ -324,6 +324,9 @@
                                         <real key="value" value="18"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnQuenMatKhau:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="ctk-26-Xh5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpv-gI-H5L" customClass="DesignableButton" customModule="DSGN" customModuleProvider="target">
                                 <rect key="frame" x="24" y="449" width="327" height="48"/>
@@ -368,6 +371,9 @@
                                         <real key="value" value="24"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnDangNhap:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="cCq-rV-ZnE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FyH-9s-gq8">
                                 <rect key="frame" x="24" y="507" width="327" height="48"/>
@@ -413,6 +419,9 @@
                                         <real key="value" value="24"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnDangKy:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="3CM-bB-WK3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Đăng nhập bằng tải khoản mạng xã hội" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fd-Oa-kc6" customClass="DesignableLabel" customModule="DSGN" customModuleProvider="target">
                                 <rect key="frame" x="45" y="588" width="286" height="15"/>
@@ -483,6 +492,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnShareFaceBook:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="52Z-8e-Dn4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQD-vH-d08">
                                 <rect key="frame" x="254" y="617" width="20" height="22"/>
@@ -514,6 +526,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnShareGooglePlus:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="PJU-xS-bYU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhV-Z0-o5Z">
                                 <rect key="frame" x="165" y="618" width="18" height="22"/>
@@ -545,6 +560,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnShareTwitter:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="c4v-VX-yVl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -618,7 +636,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qeS-1P-m25" customClass="DesignableUITextField" customModule="DSGN" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="example@gmail.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qeS-1P-m25" customClass="DesignableUITextField" customModule="DSGN" customModuleProvider="target">
                                 <rect key="frame" x="16" y="281" width="306" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.047058823530000002" green="0.050980392159999999" blue="0.015686274510000001" alpha="0.30177156690000001" colorSpace="calibratedRGB"/>
@@ -749,7 +767,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRw-Jc-cjw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293.5999999999999" y="58.920539730134934"/>
+            <point key="canvasLocation" x="673" y="732"/>
         </scene>
         <!--DagK View-->
         <scene sceneID="S6V-Wt-Trl">
