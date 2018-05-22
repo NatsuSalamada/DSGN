@@ -39,6 +39,7 @@
 		04689E3D20B2AD3800D580E0 /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3720B2AD3800D580E0 /* UIButton+Extention.swift */; };
 		04689E3E20B2AD3800D580E0 /* UILable+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3820B2AD3800D580E0 /* UILable+Extention.swift */; };
 		04689E4020B2AD3800D580E0 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689E3A20B2AD3800D580E0 /* UIView+Extention.swift */; };
+		CE8B870120B3C45400BBEF47 /* ForgotPWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B870020B3C45400BBEF47 /* ForgotPWView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		04689E3720B2AD3800D580E0 /* UIButton+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
 		04689E3820B2AD3800D580E0 /* UILable+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILable+Extention.swift"; sourceTree = "<group>"; };
 		04689E3A20B2AD3800D580E0 /* UIView+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		CE8B870020B3C45400BBEF47 /* ForgotPWView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPWView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			children = (
 				0438144A20B2BD0100146BF2 /* DagNView.swift */,
 				0438144C20B2BD1A00146BF2 /* DagKView.swift */,
+				CE8B870020B3C45400BBEF47 /* ForgotPWView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				04689DFA20B2804D00D580E0 /* AppDelegate.swift in Sources */,
 				04689E4020B2AD3800D580E0 /* UIView+Extention.swift in Sources */,
 				0438144B20B2BD0100146BF2 /* DagNView.swift in Sources */,
+				CE8B870120B3C45400BBEF47 /* ForgotPWView.swift in Sources */,
 				04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

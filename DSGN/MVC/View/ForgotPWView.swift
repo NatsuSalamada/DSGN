@@ -1,35 +1,15 @@
 //
-//  DagNView.swift
+//  ForgotPWView.swift
 //  DSGN
 //
-//  Created by Bé Nhện Của Bé Thảo on 21/05/2018.
+//  Created by User on 5/22/18.
 //  Copyright © 2018 NatsuSalamada. All rights reserved.
 //
 
 import UIKit
 
-class DagNView: UIViewController {
-    
-    
-    // Action Of Screen
-    @IBAction func abtnQuenMatKhau(_ sender: Any) {
-    }
-    @IBAction func abtnDangNhap(_ sender: Any) {
-    }
-    @IBAction func abtnDangKy(_ sender: Any) {
-    }
-    @IBAction func abtnShareFaceBook(_ sender: Any) {
-    }
-    @IBAction func abtnShareTwitter(_ sender: Any) {
-    }
-    @IBAction func abtnShareGooglePlus(_ sender: Any) {
-    }
-    
-    
-    
-    // Action Of Screen
-    
-    
+class ForgotPWView: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
