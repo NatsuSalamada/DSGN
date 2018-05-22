@@ -773,7 +773,7 @@
                                         <real key="value" value="261"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="widthIphone">
-                                        <real key="value" value="49"/>
+                                        <real key="value" value="40"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="heightIphone">
                                         <real key="value" value="40"/>
@@ -834,7 +834,7 @@
                                         <real key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="xIphone">
-                                        <real key="value" value="81"/>
+                                        <real key="value" value="87"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="yIphone">
                                         <real key="value" value="392"/>
