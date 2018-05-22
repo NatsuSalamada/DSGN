@@ -727,6 +727,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="heightIpad">
                                         <real key="value" value="48"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
