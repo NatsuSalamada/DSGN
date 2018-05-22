@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -325,6 +324,9 @@
                                         <real key="value" value="18"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnQuenMatKhau:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="ctk-26-Xh5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpv-gI-H5L" customClass="DesignableButton" customModule="DSGN" customModuleProvider="target">
                                 <rect key="frame" x="24" y="449" width="327" height="48"/>
@@ -369,6 +371,9 @@
                                         <real key="value" value="24"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnDangNhap:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="cCq-rV-ZnE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FyH-9s-gq8">
                                 <rect key="frame" x="24" y="507" width="327" height="48"/>
@@ -414,6 +419,9 @@
                                         <real key="value" value="24"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnDangKy:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="3CM-bB-WK3"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Đăng nhập bằng tải khoản mạng xã hội" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fd-Oa-kc6" customClass="DesignableLabel" customModule="DSGN" customModuleProvider="target">
                                 <rect key="frame" x="45" y="588" width="286" height="15"/>
@@ -484,6 +492,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnShareFaceBook:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="52Z-8e-Dn4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQD-vH-d08">
                                 <rect key="frame" x="254" y="617" width="20" height="22"/>
@@ -515,6 +526,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnShareGooglePlus:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="PJU-xS-bYU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhV-Z0-o5Z">
                                 <rect key="frame" x="165" y="618" width="18" height="22"/>
@@ -546,6 +560,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="abtnShareTwitter:" destination="sfx-Cw-PSr" eventType="touchUpInside" id="c4v-VX-yVl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
