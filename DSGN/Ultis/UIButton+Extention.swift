@@ -17,12 +17,12 @@ class DesignableButton: UIButton {
         didSet {
             if UIScreen.main.bounds.width >= 768{
                
-                self.titleLabel?.font =  UIFont(name: "SFProText-Regular", size: fontIPad)
+                self.titleLabel?.font =  UIFont(name: (self.titleLabel?.font.fontName)!, size: fontIPad)
                 
                 
             }else{
                 
-                self.titleLabel?.font = UIFont(name: "SFProText-Regular", size: WIPH(w: fontIPhone))
+                self.titleLabel?.font = UIFont(name: (self.titleLabel?.font.fontName)!, size: WIPH(w: fontIPhone))
             }
         }
     }
@@ -30,10 +30,10 @@ class DesignableButton: UIButton {
         didSet {
             if UIScreen.main.bounds.width >= 768{
                 
-                self.titleLabel?.font = UIFont(name: "SFProText-Regular", size: WIPA(w: fontIPad))
+                self.titleLabel?.font = UIFont(name: (self.titleLabel?.font.fontName)!, size: WIPA(w: fontIPad))
             }else{
                
-                self.titleLabel?.font =  UIFont(name: "SFProText-Regular", size: fontIPhone)
+                self.titleLabel?.font =  UIFont(name: (self.titleLabel?.font.fontName)!, size: fontIPhone)
                 
             }
         }
