@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1564,21 +1565,6 @@
             </objects>
             <point key="canvasLocation" x="1826.4000000000001" y="828.93553223388312"/>
         </scene>
-        <!--Gioi Thieu View-->
-        <scene sceneID="XIe-JO-OED">
-            <objects>
-                <viewController id="pZs-UO-Zer" customClass="GioiThieuView" customModule="DSGN" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Vq7-GW-Sau">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="tot-pt-NsG"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E1Q-dG-CfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2778" y="810"/>
-        </scene>
         <!--DagK View-->
         <scene sceneID="ZT9-hE-NO0">
             <objects>
@@ -2179,9 +2165,196 @@
             </objects>
             <point key="canvasLocation" x="1889" y="59"/>
         </scene>
+        <!--Gioi Thieu View-->
+        <scene sceneID="n5K-O3-qK2">
+            <objects>
+                <viewController id="xLA-E3-MYx" customClass="GioiThieuView" customModule="DSGN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8gr-Zf-MCl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTx-sq-9gd" userLabel="View-GT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AF-yW-mDL">
+                                        <rect key="frame" x="16" y="36" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="back"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="xIphone">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="yIphone">
+                                                <real key="value" value="36"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="widthIphone">
+                                                <real key="value" value="32"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="heightIphone">
+                                                <real key="value" value="32"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIỚI THIỆU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIj-FM-daL" customClass="DesignableLabel" customModule="DSGN" customModuleProvider="target">
+                                        <rect key="frame" x="138" y="43" width="99" height="19"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" red="0.52156862749999999" green="0.58823529409999997" blue="0.0" alpha="0.69921875" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="xIphone">
+                                                <real key="value" value="138"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="yIphone">
+                                                <real key="value" value="43"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="widthIphone">
+                                                <real key="value" value="99"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="heightIphone">
+                                                <real key="value" value="19"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="fontIPhone">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="ChW-6H-4di"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="xIphone">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="yIphone">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="widthIphone">
+                                        <real key="value" value="375"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="heightIphone">
+                                        <real key="value" value="86"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C0U-2d-1h9">
+                                <rect key="frame" x="0.0" y="86" width="375" height="2414"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EsU-kW-4Fr" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2414"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWa-Hs-m9z" customClass="DesignableLabel" customModule="DSGN" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="236" width="343" height="819.5"/>
+                                                <string key="text">Công ty TNHH Thiết kế Thiên Ân (DSGN Thiên Ân) là công ty chuyên hoạt động về lĩnh vực thiết kế, thi công công trình kiến trúc xây dựng; thiết kế, sản xuất và thi công nội ngoại thất; sản xuất, cung cấp và trang trí các sản phẩm đồ gỗ… Mang trong mình sứ mệnh người đồng hành, chung tay kiến tạo những không gian sống hiện đại, tiện nghi và khác biệt nhưng vẫn giàu giá trị thẩm mỹ và có tính công năng cao, Thiên Ân tự tin mang đến những giá trị không ngừng gia tăng cho khách hàng.
+
+Thấu hiểu trăn trở của khách hàng khi tìm kiếm một giải pháp thiết kế, thi công hoàn thiện với mức chi phí hợp lý, chúng tôi luôn nỗ lực tìm kiếm và đưa ra những phương án thiết kế tối ưu, cung ứng những sản phẩm tinh tế nhất dành cho từng hạng mục công trình từ thi công nội thất đến thi công xây dựng. Yếu tố chất lượng được chúng tôi ưu tiên hàng đầu và trên hết nhằm không chỉ mang đến cho quý khách một không gian đẹp, sang trọng mà còn tiện ích, an toàn tuyệt đối trong quá trình sử dụng. Bên cạnh đó, DSGN Thiên Ân cũng liên tục cập nhật những xu hướng thiết kế mới, những kỹ thuật thi công hiện đại nhằm tạo dựng những công trình mang dấu ấn phong cách riêng, góp phần mang lại những giá trị đích thực cũng như mở ra cơ hội khám phá, trải nghiệm và tận hưởng cuộc sống thực sự cho khách hàng. Một hành trình dài vẫn đang còn phía trước nhưng chúng tôi tin tưởng với sự nỗ lực không ngừng cùng tinh thần đoàn kết, làm việc đầy trách nhiệm, DSGN Thiên Ân sẽ ngày càng vững mạnh và thành công hơn nữa trong tương lai.
+
+Trân trọng! </string>
+                                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontIPhone">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontIPad">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9n-Fy-UwE" customClass="DesignableLabel" customModule="DSGN" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="122" width="343" height="98"/>
+                                                <string key="text">DSGN Thiên Ân luôn mang đến những ý tưởng sáng tạo cùng những giải pháp thiết kế tối ưu cho những không gian hoàn hảo và tiện nghi trên từng m2 diện tích. </string>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontIPhone">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="fontIPad">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ICg-e8-CZr">
+                                                <rect key="frame" x="16" y="1071.5" width="343" height="1326.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="C01-FI-fPE">
+                                                    <size key="itemSize" width="50" height="50"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0LE-3y-wpt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </view>
+                                                    </collectionViewCell>
+                                                </cells>
+                                            </collectionView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group" translatesAutoresizingMaskIntoConstraints="NO" id="RE5-y6-mMX">
+                                                <rect key="frame" x="16" y="32" width="198" height="57"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="RE5-y6-mMX" secondAttribute="height" multiplier="240:69" id="Whh-sv-Y4q"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="W9n-Fy-UwE" secondAttribute="trailing" constant="16" id="8hE-xm-RqI"/>
+                                            <constraint firstItem="ICg-e8-CZr" firstAttribute="top" secondItem="eWa-Hs-m9z" secondAttribute="bottom" constant="16" id="Dth-4S-t8J"/>
+                                            <constraint firstAttribute="trailing" secondItem="ICg-e8-CZr" secondAttribute="trailing" constant="16" id="ES3-uB-D1V"/>
+                                            <constraint firstAttribute="bottom" secondItem="ICg-e8-CZr" secondAttribute="bottom" constant="16" id="G9S-IH-BLC"/>
+                                            <constraint firstItem="eWa-Hs-m9z" firstAttribute="leading" secondItem="EsU-kW-4Fr" secondAttribute="leading" constant="16" id="K89-Lb-glB"/>
+                                            <constraint firstAttribute="trailing" secondItem="eWa-Hs-m9z" secondAttribute="trailing" constant="16" id="Upm-5k-kM2"/>
+                                            <constraint firstItem="ICg-e8-CZr" firstAttribute="leading" secondItem="EsU-kW-4Fr" secondAttribute="leading" constant="16" id="V8M-cV-wNR"/>
+                                            <constraint firstItem="W9n-Fy-UwE" firstAttribute="top" secondItem="RE5-y6-mMX" secondAttribute="bottom" constant="33" id="ibI-3E-imn"/>
+                                            <constraint firstItem="RE5-y6-mMX" firstAttribute="top" secondItem="EsU-kW-4Fr" secondAttribute="top" constant="32" id="nTy-Fq-L3r"/>
+                                            <constraint firstItem="RE5-y6-mMX" firstAttribute="leading" secondItem="EsU-kW-4Fr" secondAttribute="leading" constant="16" id="oMV-q8-ONK"/>
+                                            <constraint firstItem="W9n-Fy-UwE" firstAttribute="leading" secondItem="EsU-kW-4Fr" secondAttribute="leading" constant="16" id="vPv-Kh-OG8"/>
+                                            <constraint firstItem="eWa-Hs-m9z" firstAttribute="top" secondItem="W9n-Fy-UwE" secondAttribute="bottom" constant="16" id="wlr-JD-Gll"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="EsU-kW-4Fr" firstAttribute="leading" secondItem="C0U-2d-1h9" secondAttribute="leading" id="2I5-jj-G7b"/>
+                                    <constraint firstAttribute="trailing" secondItem="EsU-kW-4Fr" secondAttribute="trailing" id="ZmO-5k-snN"/>
+                                    <constraint firstItem="EsU-kW-4Fr" firstAttribute="width" secondItem="C0U-2d-1h9" secondAttribute="width" id="cOY-Th-q3E"/>
+                                    <constraint firstAttribute="bottom" secondItem="EsU-kW-4Fr" secondAttribute="bottom" constant="414" id="fr3-Nu-bYw"/>
+                                    <constraint firstItem="EsU-kW-4Fr" firstAttribute="top" secondItem="C0U-2d-1h9" secondAttribute="top" id="fro-jm-i0U"/>
+                                    <constraint firstItem="EsU-kW-4Fr" firstAttribute="height" secondItem="C0U-2d-1h9" secondAttribute="height" id="xdY-wV-LTf"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QTx-sq-9gd" firstAttribute="top" secondItem="8gr-Zf-MCl" secondAttribute="top" id="0YH-Vt-0m4"/>
+                            <constraint firstItem="C0U-2d-1h9" firstAttribute="top" secondItem="QTx-sq-9gd" secondAttribute="bottom" id="LqH-Wx-J7l"/>
+                            <constraint firstItem="C0U-2d-1h9" firstAttribute="trailing" secondItem="yn5-p3-Phg" secondAttribute="trailing" id="Q8b-BJ-Gkc"/>
+                            <constraint firstItem="C0U-2d-1h9" firstAttribute="leading" secondItem="yn5-p3-Phg" secondAttribute="leading" id="U0G-K4-jnC"/>
+                            <constraint firstItem="QTx-sq-9gd" firstAttribute="trailing" secondItem="yn5-p3-Phg" secondAttribute="trailing" id="rEx-AF-djj"/>
+                            <constraint firstItem="QTx-sq-9gd" firstAttribute="leading" secondItem="yn5-p3-Phg" secondAttribute="leading" id="vR0-Dh-es9"/>
+                            <constraint firstItem="yn5-p3-Phg" firstAttribute="bottom" secondItem="C0U-2d-1h9" secondAttribute="bottom" id="x5t-n0-GR2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yn5-p3-Phg"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="2500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Kz-5b-hgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2812" y="883"/>
+        </scene>
     </scenes>
     <resources>
         <image name="5679026848062490" width="375" height="667"/>
+        <image name="back" width="22" height="22"/>
         <image name="facebook" width="9" height="21"/>
         <image name="google" width="20" height="13"/>
         <image name="group" width="198" height="53"/>
