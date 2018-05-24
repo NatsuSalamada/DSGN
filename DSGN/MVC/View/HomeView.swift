@@ -8,28 +8,46 @@
 
 import UIKit
 
-class HomeView: UIViewController {
+class HomeView: UIViewController, UICollectionViewDelegate,UICollectionViewDataSource {
+    var scrollingTimer = Timer()
+   
+    
+    var dataImages:[String] = ["image1.jpg","image2.jpg","image3.jpg"]
+    var rowIndex = 0
 
+    @IBOutlet weak var CollectionView: UICollectionView!
+    @IBOutlet weak var PageControl: UIPageControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollingTimer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector
+            (HomeView.startTimer(theTimer:)), userInfo: rowIndex, repeats: true)
 
-        // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return dataImages.count
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CustomCollectionViewCell
+        print(indexPath.row)
+        cell.myImages.image = UIImage(named: dataImages[indexPath.row])
+        
+        
+        
+       // print(scrollingTimer)
+        
+        return cell
+    }
+    @objc func startTimer(theTimer:Timer)
+    {
+        let numberOfrecords: Int = self.dataImages.count - 1
+        if (rowIndex < numberOfrecords){
+            rowIndex = (rowIndex + 1)
+        }else{
+            rowIndex = 0
+        }
+        UIView.animate(withDuration: 1.0, delay: 0, options: .curveEaseOut, animations: {
+            self.CollectionView.scrollToItem(at: IndexPath(row: self.rowIndex, section: 0), at: .left, animated: true)
+        }, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
