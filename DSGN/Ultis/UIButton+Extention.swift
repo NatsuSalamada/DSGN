@@ -17,7 +17,7 @@ class DesignableButton: UIButton {
         didSet {
             if UIScreen.main.bounds.width >= 768{
                
-                self.titleLabel?.font =  UIFont(name: (self.titleLabel?.font.fontName)!, size: fontIPad)
+                
                 
                 
             }else{
@@ -33,7 +33,7 @@ class DesignableButton: UIButton {
                 self.titleLabel?.font = UIFont(name: (self.titleLabel?.font.fontName)!, size: WIPA(w: fontIPad))
             }else{
                
-                self.titleLabel?.font =  UIFont(name: (self.titleLabel?.font.fontName)!, size: fontIPhone)
+                
                 
             }
         }
@@ -42,7 +42,7 @@ class DesignableButton: UIButton {
     @IBInspectable var positiontitleIPhone: CGFloat = 0{
         didSet {
             if UIScreen.main.bounds.width >= 768{
-                self.titleEdgeInsets = edgeInsetsIphone(edge: UIEdgeInsets(top: 0, left: positiontitleIPad, bottom: 0, right: 0))
+                
                 
                 
             }else{
@@ -55,7 +55,7 @@ class DesignableButton: UIButton {
             if UIScreen.main.bounds.width >= 768{
                 self.titleEdgeInsets = edgeInsetsIphone(edge: UIEdgeInsets(top: 0, left: positiontitleIPad, bottom: 0, right: 0))
             }else{
-                self.titleEdgeInsets = edgeInsetsIphone(edge: UIEdgeInsets(top: 0, left: positiontitleIPhone, bottom: 0, right: 0))
+                
                 
             }
         }

@@ -19,7 +19,7 @@ class DesignableLabel: UILabel {
         didSet {
             if UIScreen.main.bounds.width >= 768{
                 
-                self.font = UIFont(name: self.font.fontName, size: fontIPad)
+                
                
             }else{
                 
@@ -34,7 +34,7 @@ class DesignableLabel: UILabel {
                 self.font = UIFont(name: self.font.fontName, size: WIPA(w: fontIPad))
             }else{
                 
-                self.font = UIFont(name: self.font.fontName, size: fontIPhone)
+                
                 
             }
         }
