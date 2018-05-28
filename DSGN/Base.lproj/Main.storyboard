@@ -2650,7 +2650,7 @@ Trân trọng! </string>
                                         </constraints>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9Nd-xg-rWz">
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="HeaderDetailCollectionReusable" id="9Nd-xg-rWz" customClass="HeaderDetailCollectionReusableView" customModule="DSGN" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>

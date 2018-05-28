@@ -19,7 +19,18 @@ class DetailView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
         return cell
     }
     
- 
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        switch kind {
+        case UICollectionElementKindSectionHeader:
+            let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+                                                                             withReuseIdentifier: "HeaderDetailCollectionReusable",
+                                                                             for: indexPath) as! HeaderDetailCollectionReusableView
+            
+            return headerView
+        default:
+            assert(false, "Unexpected element kind")
+        }
+    }
    
     @IBOutlet weak var CollectionDetail: UICollectionView!
     override func viewDidLoad() {
