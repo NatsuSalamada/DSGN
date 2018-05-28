@@ -8,8 +8,18 @@
 
 import UIKit
 
-class ModelHouseView: UIViewController {
+class ModelHouseView: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellModel", for: indexPath) as! CollectionViewCellDetail
+        return cell
+    }
+    
 
+    @IBOutlet weak var CollectionModel: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
