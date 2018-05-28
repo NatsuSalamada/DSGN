@@ -16,6 +16,7 @@ class DetailView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellDtl", for: indexPath)  as! CollectionViewCellDetail
+        cell.layer.cornerRadius = 6
         return cell
     }
     
@@ -32,13 +33,15 @@ class DetailView: UIViewController, UICollectionViewDelegate, UICollectionViewDa
         }
     }
    
+    
     @IBOutlet weak var CollectionDetail: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
-
+    
+   
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
