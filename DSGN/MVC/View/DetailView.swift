@@ -8,8 +8,19 @@
 
 import UIKit
 
-class DetailView: UIViewController {
-
+class DetailView: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CellDtl", for: indexPath)  as! CollectionViewCellDetail
+        return cell
+    }
+    
+ 
+   
+    @IBOutlet weak var CollectionDetail: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
