@@ -2732,7 +2732,7 @@ Trân trọng! </string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <searchBar contentMode="redraw" fixedFrame="YES" barStyle="blackTranslucent" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="fqj-up-3De">
+                                    <searchBar contentMode="redraw" fixedFrame="YES" barStyle="blackTranslucent" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="fqj-up-3De" customClass="CustomSearchBarView" customModule="DSGN" customModuleProvider="target">
                                         <rect key="frame" x="54" y="39" width="267" height="56"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
