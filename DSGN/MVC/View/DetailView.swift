@@ -9,6 +9,7 @@
 import UIKit
 
 class DetailView: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }
