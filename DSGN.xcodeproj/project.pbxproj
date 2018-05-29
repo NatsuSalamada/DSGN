@@ -27,6 +27,9 @@
 		042BBFB020B3BCFD00C25EAE /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 042BBF9B20B3BB7200C25EAE /* Montserrat-ThinItalic.ttf */; };
 		0438144B20B2BD0100146BF2 /* DagNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144A20B2BD0100146BF2 /* DagNView.swift */; };
 		0438144D20B2BD1A00146BF2 /* DagKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0438144C20B2BD1A00146BF2 /* DagKView.swift */; };
+		0463A5B920BCF974004EA33C /* ProjecjPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A5B620BCF974004EA33C /* ProjecjPhotoController.swift */; };
+		0463A5BA20BCF974004EA33C /* ClickOneImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A5B720BCF974004EA33C /* ClickOneImageView.swift */; };
+		0463A5BB20BCF974004EA33C /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463A5B820BCF974004EA33C /* ContactController.swift */; };
 		04689DFA20B2804D00D580E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04689DF920B2804D00D580E0 /* AppDelegate.swift */; };
 		04689DFF20B2804D00D580E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04689DFD20B2804D00D580E0 /* Main.storyboard */; };
 		04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04689E0020B2804D00D580E0 /* DSGN.xcdatamodeld */; };
@@ -90,6 +93,9 @@
 		042BBF9E20B3BB7300C25EAE /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		0438144A20B2BD0100146BF2 /* DagNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagNView.swift; sourceTree = "<group>"; };
 		0438144C20B2BD1A00146BF2 /* DagKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DagKView.swift; sourceTree = "<group>"; };
+		0463A5B620BCF974004EA33C /* ProjecjPhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjecjPhotoController.swift; sourceTree = "<group>"; };
+		0463A5B720BCF974004EA33C /* ClickOneImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickOneImageView.swift; sourceTree = "<group>"; };
+		0463A5B820BCF974004EA33C /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
 		04689DF620B2804D00D580E0 /* DSGN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSGN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04689DF920B2804D00D580E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04689DFE20B2804D00D580E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -246,6 +252,9 @@
 		04689E2C20B2809A00D580E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0463A5B720BCF974004EA33C /* ClickOneImageView.swift */,
+				0463A5B820BCF974004EA33C /* ContactController.swift */,
+				0463A5B620BCF974004EA33C /* ProjecjPhotoController.swift */,
 				0438144A20B2BD0100146BF2 /* DagNView.swift */,
 				0438144C20B2BD1A00146BF2 /* DagKView.swift */,
 				CE8B870020B3C45400BBEF47 /* ForgotPWView.swift */,
@@ -461,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0463A5BA20BCF974004EA33C /* ClickOneImageView.swift in Sources */,
 				04689E3E20B2AD3800D580E0 /* UILable+Extention.swift in Sources */,
 				5BBA552B20BBFE85007D9938 /* ModelHouseView.swift in Sources */,
 				04689E3D20B2AD3800D580E0 /* UIButton+Extention.swift in Sources */,
@@ -468,6 +478,7 @@
 				5B23073520BBB8D50004D7A5 /* CollectionViewCellDetail.swift in Sources */,
 				0489DDA320BBF17600B51545 /* HeaderDetailCollectionReusableView.swift in Sources */,
 				04D7368320B8079C006F8F32 /* DetailView.swift in Sources */,
+				0463A5BB20BCF974004EA33C /* ContactController.swift in Sources */,
 				CED075AD20B678BE00EBC742 /* CustomCollectionViewCell.swift in Sources */,
 				0438144D20B2BD1A00146BF2 /* DagKView.swift in Sources */,
 				5B56D56720B80E2900473808 /* CollectionViewCellIntro.swift in Sources */,
@@ -479,6 +490,7 @@
 				04689E4020B2AD3800D580E0 /* UIView+Extention.swift in Sources */,
 				0438144B20B2BD0100146BF2 /* DagNView.swift in Sources */,
 				CE8B870120B3C45400BBEF47 /* ForgotPWView.swift in Sources */,
+				0463A5B920BCF974004EA33C /* ProjecjPhotoController.swift in Sources */,
 				04689E0220B2804D00D580E0 /* DSGN.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
