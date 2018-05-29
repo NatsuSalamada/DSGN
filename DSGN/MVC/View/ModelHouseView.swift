@@ -19,9 +19,14 @@ class ModelHouseView: UIViewController,UICollectionViewDelegate, UICollectionVie
     }
     
 
+    @IBOutlet weak var Segment1: SegmentModel!
     @IBOutlet weak var CollectionModel: UICollectionView!
+    @IBAction func segmentedControlDidChange(_ sender: UISegmentedControl){
+        Segment1.changeUnderlinePosition()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        Segment1.addUnderlineForSelectedSegment()
 
         // Do any additional setup after loading the view.
     }
