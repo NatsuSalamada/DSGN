@@ -3088,13 +3088,19 @@ Trân trọng! </string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzO-2b-ty9">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
                                 <subviews>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="udB-j2-9oO">
-                                        <rect key="frame" x="127" y="109" width="121" height="28"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="udB-j2-9oO" customClass="SegmentModel" customModule="DSGN" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="ejs-v6-5Sa"/>
+                                        </constraints>
                                         <segments>
-                                            <segment title="First"/>
-                                            <segment title="Second"/>
+                                            <segment title="NHÀ PHỐ"/>
+                                            <segment title="BIỆT THỰ"/>
                                         </segments>
+                                        <color key="tintColor" red="0.52156862749999999" green="0.58823529409999997" blue="0.0" alpha="0.69921875" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="segmentedControlDidChange:" destination="BZW-Ej-hmj" eventType="valueChanged" id="mNP-Tb-R3J"/>
+                                        </connections>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhg-Dn-7Mb">
                                         <rect key="frame" x="16" y="39" width="28" height="28"/>
@@ -3170,7 +3176,10 @@ Trân trọng! </string>
                                 </subviews>
                                 <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="udB-j2-9oO" secondAttribute="trailing" id="1Gf-pP-v9H"/>
                                     <constraint firstAttribute="height" constant="136" id="IkG-Yq-wuo"/>
+                                    <constraint firstItem="udB-j2-9oO" firstAttribute="leading" secondItem="kzO-2b-ty9" secondAttribute="leading" id="OQO-GV-Opv"/>
+                                    <constraint firstAttribute="bottom" secondItem="udB-j2-9oO" secondAttribute="bottom" id="Y3X-Jd-JmS"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="xIphone">
@@ -3201,7 +3210,7 @@ Trân trọng! </string>
                                         <color key="value" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="1"/>
+                                        <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -3309,9 +3318,9 @@ Trân trọng! </string>
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LQT-EB-MnT">
-                                <rect key="frame" x="8" y="136" width="359" height="482"/>
+                                <rect key="frame" x="8" y="160" width="359" height="458"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="5ii-m6-MsH">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="tfW-BZ-ZAH">
                                     <size key="itemSize" width="175" height="199"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -3340,7 +3349,7 @@ Trân trọng! </string>
                             <constraint firstAttribute="trailing" secondItem="kzO-2b-ty9" secondAttribute="trailing" id="ARb-E9-9da"/>
                             <constraint firstItem="LQT-EB-MnT" firstAttribute="leading" secondItem="Oss-Cn-ER6" secondAttribute="leading" constant="8" id="Do9-2x-XXf"/>
                             <constraint firstItem="Ymx-NM-XE5" firstAttribute="top" secondItem="LQT-EB-MnT" secondAttribute="bottom" id="NCA-y7-BEo"/>
-                            <constraint firstItem="LQT-EB-MnT" firstAttribute="top" secondItem="kzO-2b-ty9" secondAttribute="bottom" id="UBt-za-eWf"/>
+                            <constraint firstItem="LQT-EB-MnT" firstAttribute="top" secondItem="kzO-2b-ty9" secondAttribute="bottom" constant="24" id="WSD-f8-bWo"/>
                             <constraint firstAttribute="trailing" secondItem="Ymx-NM-XE5" secondAttribute="trailing" id="fLh-l4-PDq"/>
                             <constraint firstItem="Ymx-NM-XE5" firstAttribute="leading" secondItem="Oss-Cn-ER6" secondAttribute="leading" id="fxM-Ax-ydj"/>
                             <constraint firstAttribute="trailing" secondItem="LQT-EB-MnT" secondAttribute="trailing" constant="8" id="iYc-jS-Eq6"/>
@@ -3351,6 +3360,7 @@ Trân trọng! </string>
                     </view>
                     <connections>
                         <outlet property="CollectionModel" destination="LQT-EB-MnT" id="rfM-Q4-9W3"/>
+                        <outlet property="Segment1" destination="udB-j2-9oO" id="Bpj-g3-2eK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyq-6O-9wa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4251,7 +4261,7 @@ Trân trọng! </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jf1-Mh-7hc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5538" y="72"/>
+            <point key="canvasLocation" x="4810" y="1011"/>
         </scene>
         <!--Contact Controller-->
         <scene sceneID="D0T-Nz-dPi">
